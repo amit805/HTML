@@ -1,0 +1,3 @@
+in template 2 i made have used navigation bar but how can i make that bar as it is given in the template.
+as i have used footer in template 2 so i want to know more about footers.
+some more explnation about making boxes.
