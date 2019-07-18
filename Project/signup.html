@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body background="images/bg.jpg">
+<br>
+<br>
+<br>
+  <div class="container">
+    <h1 align="middle" >Sign Up For Staff And Guest</h1><br><br>
+    <div class="wrapper">
+      <div class="contact">
+        <h3 align="middle">Details</h3>
+        <div class="alert">You Have Signuped Successfully</div>
+        <form id="signupForm" method="post">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label>User Name</label>
+            <input type="text" name="userName" id="userName" required>
+          </p>
+          <p>
+            <label>Password</label>
+            <input type="password" name="pass" id="pass" required></input>
+          </p>
+		   <p>
+            <label>Account Type</label>
+            <select name="accountType" id="accountType" style="width:250px; height:40px;">
+              <option value="guest"><h3>Guest</h3></option>
+              <option value="staff">Staff</option>
+            </select>
+          </p>
+          <p class="full">
+            <button type="submit">Sign Up</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div><br>
+
+ <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script src="js/signup.js"></script>
+</body>
+</html>
